@@ -1,0 +1,21 @@
+{
+  "fileId": "2f3c69cf-3b9b-4fe6-83f0-f008ad1f32a2",
+  "_id": "2f3c69cf-3b9b-4fe6-83f0-f008ad1f32a2",
+  "title": "Kafka Event Payload",
+  "fileType": "json",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "json-analyzer",
+      "data": {
+        "leftContent": "{\n  \"eventId\": \"evt-8f42c1a9\",\n  \"eventType\": \"OrderCreated\",\n  \"eventVersion\": \"1.0\",\n  \"timestamp\": \"2026-06-22T10:15:30Z\",\n  \"source\": \"order-service\",\n  \"correlationId\": \"corr-123456789\",\n  \"data\": {\n    \"orderId\": \"ORD-100234\",\n    \"userId\": 1001,\n    \"status\": \"CREATED\",\n    \"totalAmount\": 2499.99,\n    \"currency\": \"INR\",\n    \"items\": [\n      {\n        \"productId\": \"P1001\",\n        \"productName\": \"Wireless Keyboard\",\n        \"quantity\": 1,\n        \"price\": 1499.99\n      },\n      {\n        \"productId\": \"P1002\",\n        \"productName\": \"Wireless Mouse\",\n        \"quantity\": 1,\n        \"price\": 1000.00\n      }\n    ],\n    \"shippingAddress\": {\n      \"city\": \"Bangalore\",\n      \"state\": \"Karnataka\",\n      \"country\": \"India\",\n      \"postalCode\": \"560001\"\n    }\n  },\n  \"metadata\": {\n    \"retryCount\": 0,\n    \"environment\": \"production\",\n    \"partition\": 3\n  }\n}",
+        "rightContent": "{\n  \"eventId\": \"evt-8f42c1a9\",\n  \"eventType\": \"OrderCreated\",\n  \"eventVersion\": \"1.0\",\n  \"timestamp\": \"2026-06-22T10:15:30Z\",\n  \"source\": \"order-service\",\n  \"correlationId\": \"corr-123456789\",\n  \"data\": {\n    \"orderId\": \"ORD-100234\",\n    \"userId\": 1001,\n    \"status\": \"CREATED\",\n    \"totalAmount\": 2499.99,\n    \"currency\": \"INR\",\n    \"items\": [\n      {\n        \"productId\": \"P1001\",\n        \"productName\": \"Wireless Keyboard\",\n        \"quantity\": 1,\n        \"price\": 1499.99\n      },\n      {\n        \"productId\": \"P1002\",\n        \"productName\": \"Wireless Mouse\",\n        \"quantity\": 1,\n        \"price\": 1000.00\n      }\n    ],\n    \"shippingAddress\": {\n      \"city\": \"Bangalore\",\n      \"state\": \"Karnataka\",\n      \"country\": \"India\",\n      \"postalCode\": \"560001\"\n    }\n  },\n  \"metadata\": {\n    \"retryCount\": 0,\n    \"environment\": \"production\",\n    \"partition\": 3\n  }\n}",
+        "leftPaneWidth": 50,
+        "theme": "light-theme",
+        "isDiffMode": false
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788356330995
+}

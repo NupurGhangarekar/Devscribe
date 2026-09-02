@@ -1,0 +1,194 @@
+{
+  "fileId": "29d44a45-062b-473a-b642-3c7555a2b4ff",
+  "_id": "29d44a45-062b-473a-b642-3c7555a2b4ff",
+  "title": "MySQL Query",
+  "fileType": "data-bridge",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "data-bridge",
+      "data": {
+        "query": "SELECT id, name, description, status, created_at FROM categories",
+        "result": {
+          "success": true,
+          "executionTime": 54,
+          "size": "2.6 KB",
+          "columns": [
+            {
+              "key": "id",
+              "label": "id",
+              "type": "string"
+            },
+            {
+              "key": "name",
+              "label": "name",
+              "type": "string"
+            },
+            {
+              "key": "description",
+              "label": "description",
+              "type": "string"
+            },
+            {
+              "key": "status",
+              "label": "status",
+              "type": "string"
+            },
+            {
+              "key": "created_at",
+              "label": "created_at",
+              "type": "string"
+            }
+          ],
+          "data": [
+            {
+              "id": 1,
+              "name": "Electronics",
+              "description": "Electronic devices and gadgets",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 2,
+              "name": "Computers",
+              "description": "Laptops, desktops and accessories",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 3,
+              "name": "Mobile Phones",
+              "description": "Smartphones and accessories",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 4,
+              "name": "Fashion",
+              "description": "Clothing and apparel",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 5,
+              "name": "Men Clothing",
+              "description": "Mens fashion products",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 6,
+              "name": "Women Clothing",
+              "description": "Womens fashion products",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 7,
+              "name": "Footwear",
+              "description": "Shoes, sandals and sneakers",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 8,
+              "name": "Home & Kitchen",
+              "description": "Home appliances and kitchen items",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 9,
+              "name": "Furniture",
+              "description": "Home and office furniture",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 10,
+              "name": "Books",
+              "description": "Books and educational materials",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 11,
+              "name": "Sports",
+              "description": "Sports equipment and accessories",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 12,
+              "name": "Fitness",
+              "description": "Fitness and gym equipment",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 13,
+              "name": "Beauty",
+              "description": "Beauty and personal care products",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 14,
+              "name": "Health",
+              "description": "Healthcare and wellness products",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 15,
+              "name": "Toys",
+              "description": "Toys and games for children",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 16,
+              "name": "Automotive",
+              "description": "Vehicle accessories and parts",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 17,
+              "name": "Groceries",
+              "description": "Daily grocery items",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 18,
+              "name": "Pet Supplies",
+              "description": "Products for pets",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 19,
+              "name": "Office Supplies",
+              "description": "Office stationery and equipment",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            },
+            {
+              "id": 20,
+              "name": "Gaming",
+              "description": "Gaming consoles and accessories",
+              "status": "ACTIVE",
+              "created_at": "2026-06-09T12:44:23.000Z"
+            }
+          ]
+        },
+        "selectedConnectionId": 1779300487255,
+        "selectedDatabase": "my_database",
+        "route": "sql"
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788356330995
+}

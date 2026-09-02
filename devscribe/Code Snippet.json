@@ -1,0 +1,40 @@
+{
+  "fileId": "5a89eb4a-36e2-4456-88f1-64e4f1dfcc16",
+  "_id": "5a89eb4a-36e2-4456-88f1-64e4f1dfcc16",
+  "title": "Code Snippet",
+  "fileType": "code-editor",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "code-editor",
+      "data": {
+        "code": "function knapsack(A, B, C) {\n    const N = B.length;\n    // Create DP table and initialize with -1\n    const DP = Array.from({ length: N + 1 }, () => Array(C + 1).fill(-1));\n\n    function f(N, C) {\n        if (N === 0 || C === 0) return 0;\n\n        if (DP[N][C] !== -1) return DP[N][C];\n\n        // Don't take\n        let ans1 = f(N - 1, C);\n\n        // Take it\n        let ans2 = 0;\n        if (B[N - 1] <= C) {\n            ans2 = A[N - 1] + f(N - 1, C - B[N - 1]);\n        }\n\n        DP[N][C] = Math.max(ans1, ans2);\n        return DP[N][C];\n    }\n\n    return f(N, C);\n}\n// ✅ Sample input\nconst values = [60, 100, 120]; // A\nconst weights = [10, 20, 30];  // B\nconst capacity = 50;           // C\nconst result = knapsack(values, weights, capacity);\nconsole.log(\"Max knapsack value:\", result);",
+        "language": "javascript",
+        "output": "Max knapsack value: 220\n",
+        "panelOpen": true,
+        "wordWrap": false,
+        "testCases": [
+          {
+            "id": "tc_1",
+            "name": "Test Case 1",
+            "inputs": [
+              {
+                "id": "in_1",
+                "key": "input1",
+                "value": "Hello"
+              },
+              {
+                "id": "in_2",
+                "key": "input2",
+                "value": "World"
+              }
+            ]
+          }
+        ],
+        "selectedTestCaseId": "tc_1"
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788367497099
+}

@@ -1,0 +1,100 @@
+{
+  "fileId": "a0f3ea33-8b1d-4af0-a65d-c1c5bf89cd1b",
+  "_id": "a0f3ea33-8b1d-4af0-a65d-c1c5bf89cd1b",
+  "title": "Local Terminal Command",
+  "fileType": "promptly",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "promptly",
+      "data": {
+        "groups": [
+          {
+            "id": "g1",
+            "title": "System Information Commands",
+            "collapsed": false,
+            "items": [
+              {
+                "id": "intro",
+                "type": "text",
+                "text": "Terminal commands can be embedded directly inside documentation pages, allowing teams to store frequently used commands alongside architecture, APIs, and operational runbooks."
+              },
+              {
+                "id": "s2",
+                "type": "cmd",
+                "title": "Show current working directory",
+                "cmd": "pwd"
+              },
+              {
+                "id": "item-l26mpupkd",
+                "type": "cmd",
+                "title": "List files in current directory",
+                "cmd": "ls -la"
+              },
+              {
+                "id": "item-1nt0hrgtl",
+                "type": "cmd",
+                "title": "Show current user",
+                "cmd": "whoami "
+              },
+              {
+                "id": "item-kzzgqv73a",
+                "type": "cmd",
+                "title": "Show current date and time",
+                "cmd": "date"
+              },
+              {
+                "id": "item-pxj1k2423",
+                "type": "cmd",
+                "title": "Display operating system information",
+                "cmd": "uname -a"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "title": "Diagnose the Crash",
+            "collapsed": false,
+            "items": [
+              {
+                "id": "s3",
+                "type": "cmd",
+                "title": "Tail Order-Service Logs",
+                "cmd": "kubectl logs deployment/order-service -f --tail=40"
+              },
+              {
+                "id": "s4",
+                "type": "cmd",
+                "title": "Check Recent Cluster Events",
+                "cmd": "kubectl get events -n production \\\n  --sort-by=.metadata.creationTimestamp"
+              },
+              {
+                "id": "s5",
+                "type": "cmd",
+                "title": "Describe the Failing Pod",
+                "cmd": "kubectl describe pod order-service-7f9d5b6c4-qm8zt \\\n  -n production"
+              }
+            ]
+          },
+          {
+            "id": "g3",
+            "title": "Remediate",
+            "collapsed": false,
+            "items": [
+              {
+                "id": "s6",
+                "type": "cmd",
+                "title": "Restart Deployment",
+                "cmd": "kubectl rollout restart deployment/order-service \\\n  -n production"
+              }
+            ]
+          }
+        ],
+        "leftPaneWidth": 50,
+        "theme": "light-theme"
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788356330995
+}

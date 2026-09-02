@@ -1,0 +1,3527 @@
+{
+  "fileId": "b4d557a3-512a-4ae1-a13a-34efc497b08e",
+  "_id": "b4d557a3-512a-4ae1-a13a-34efc497b08e",
+  "title": "Getting Started",
+  "fileType": "document-editor",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "document-editor",
+      "data": {
+        "blocks": [
+          {
+            "id": "5a52f64d-702f-40ca-a049-122f014be15b",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Getting Started with DevScribe",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "13795086-d499-47de-98ed-15fc37f8a15b",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "DevScribe is an all-in-one workspace for software engineers, architects, and technical teams.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ec1b1d81-e2b8-4deb-8908-6c1b67e94f88",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Create documentation, diagrams, APIs, database queries, JSON payloads, code snippets, terminal commands, and Docker configurations—all in one place.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4f6b331a-81ad-4ed7-a067-bb844a01a8e7",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Instead of switching between multiple tools, keep everything related to a project together and share it as a single collection with your teammates, colleagues, or friends.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a5dd270d-094f-43ca-9675-395ac416bd0e",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "What's Inside?",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d290d870-49c6-4698-be67-d80b2664ca08",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "📄 Documentation",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "e2e2a447-e699-4db6-8c91-2ba2cbe5c62f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "📊 Diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5b49fa79-65e9-44b1-b52e-ef29fc4fba36",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "🔌 APIs",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fb135f85-d43f-41b5-94ee-1ae0472390ff",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "🗄️ Database Queries",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "1155c78b-19f1-4cb2-b273-4b836092b43f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "📦 JSON Payloads",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "09f222ce-2dcf-4973-ad75-3353fcb4f0c9",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "💻 Code Snippets",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "071033f7-1c55-4edd-93a8-72da60d83d48",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "🖥️ Terminal Commands",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3d631ab2-89e4-42ef-8a57-8560e0185447",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "🐳 Docker Compose",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f00941e8-0b08-43ef-b2bf-09df5adfb242",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "🔗 External Integrations",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c498ad04-a09a-47c9-8ec7-1db9acc9a6ff",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "The sections below provide a quick overview of each feature along with practical examples and use cases to help you get started.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "73f5561c-a063-46a3-b03f-b05b42ba5e65",
+            "type": "divider",
+            "props": {},
+            "children": []
+          },
+          {
+            "id": "43c060cf-54f1-4b8c-a432-c55997edbfce",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Why DevScribe?",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "60dbf1df-e3be-4e39-a87d-1f5e347b9663",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Engineering knowledge is often scattered across multiple tools:",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b2414972-45bd-43f7-98e9-a30738de1969",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Documentation in Notion or Confluence",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "6cd81994-f497-4d68-b289-d605fe30ae8e",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Diagrams in ",
+                "styles": {}
+              },
+              {
+                "type": "link",
+                "href": "https://Draw.io",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Draw.io",
+                    "styles": {}
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": " or Lucidchart",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3043e0e6-b635-4fb4-ba56-2a9395098602",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "APIs in Postman",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b0aa577a-4e61-46b9-ad14-50879071b2f5",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database queries in SQL clients",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b0172895-ac40-4ac6-9fbd-4972fb658f6f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Scripts in IDEs",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a619819d-ed51-4253-8ab8-1b3817ed3860",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminal commands in personal notes",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b9c7171c-f967-4c28-a50d-c56dd912cac5",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "DevScribe helps you organize all of these artifacts in one place so teams can document, visualize, test, and share technical knowledge more effectively.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "26740a60-75a6-4165-a26a-91fe5b5c5faf",
+            "type": "divider",
+            "props": {},
+            "children": []
+          },
+          {
+            "id": "cdc5cf9b-9b94-4918-bb62-38ef3508e42b",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Workspace Structure",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "2e0105ca-4a29-4ff2-b7a9-efc3c595058f",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "A DevScribe workspace is organized using folders and files.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d518cb66-29fa-42cf-ad0a-e148853a5361",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "You can create:",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4b560014-4cc7-4658-95be-cb9105ea4653",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Project documentation",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "400d5cef-cb3d-4c27-bd81-b1c3399218e6",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Architecture diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "92b16ff6-78dd-4241-9946-da2f9e0a0b71",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "API collections",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "76ceee34-cc3d-4378-b0d2-53cc0320c712",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database queries",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "6363dae5-5203-4e99-9f41-a64faedd7afc",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Code snippets",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4cdd0924-522d-4deb-9013-7f74649995ac",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminal commands",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ed946b04-a3fd-4c6b-8fb9-2e87a0a8a9cd",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Docker configurations",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "7e3cd5d2-0d9d-4b06-bfb6-b818d51741a7",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Everything is stored together in a single workspace, making it easy to organize and discover engineering knowledge.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fe566e6f-2020-4beb-bf23-a2cb7d416355",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Collections can be shared with teammates, friends, or colleagues, allowing everyone to access the same documentation, diagrams, APIs, queries, scripts, and operational knowledge from one place.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "aed01c9f-da48-4119-ac36-93bbd11b6e50",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "This makes onboarding faster, improves collaboration, and helps teams maintain a single source of truth for their projects.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "33c2acc6-f297-4d75-a72d-1d5b33f2e57d",
+            "type": "divider",
+            "props": {},
+            "children": []
+          },
+          {
+            "id": "6ddd1c64-8432-4430-a65e-4d14cf774faa",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Document Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c33cab85-6d48-46b1-a7f9-5c84549c3851",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Create and manage technical documentation using Markdown.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3a93ad16-11e6-4acc-97e8-aba288afd04a",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Use Cases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d70dc0d1-6d5c-4e0a-ae62-797bc1a3eaba",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Project overviews",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "99f04a62-5a00-4591-9c6d-8a3424f4d387",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Business requirements",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "7dd77f7d-a183-4bfe-9625-09813ecc59bc",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Architecture decisions",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "97d3494e-eac3-4046-89d6-915c1585dead",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Runbooks",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "9250520e-8f63-471b-b320-9fdec48f55e9",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Troubleshooting guides",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "bda09434-1552-4175-9c95-8bcd0d891f1c",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Engineering notes",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c9578406-da70-40f3-8d54-36a7be9fdd77",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Features",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "93ce35d0-aaf2-48e5-8c2d-6e72b75c21bb",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Markdown editor",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "e3c4bcb7-2d03-442c-a37d-f14114505d2d",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Syntax highlighting",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "af0c0f84-484a-4f6e-a892-070b04677c48",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Code blocks",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fb36eb1b-051c-4174-918f-60f32c7cc617",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Tables",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "03afb868-6e3f-4c99-afde-83270c1a9580",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Internal documentation structure",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a2122e69-5013-4114-9383-bfe9cf8e3668",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Version-friendly format",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3b55c98d-5afe-40d8-9f82-f2cd5da11669",
+            "type": "divider",
+            "props": {},
+            "children": []
+          },
+          {
+            "id": "2f1eaec4-1254-4f4a-91f1-16e915405b4f",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Diagram Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "41d18f7e-9f6a-4043-ac4f-d08ac9109237",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Visualize systems directly inside DevScribe.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "70825b8c-7cbb-4470-b792-d393bdd773e4",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Supported Diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4ad93c1d-456c-4aa2-b463-322d395def40",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "High-Level Design (HLD)",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "bea2cea3-2856-4782-95d2-90dd6df2915e",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Low-Level Design (LLD)",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d1271d90-1e05-4922-be39-a936e9210e74",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "ERD",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "08df5346-0bdc-44b9-94c4-4c311509ea5f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "UML",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "051fa143-557d-4438-9968-95694a483613",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Sequence Diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "da34020a-fdef-4ce1-945f-3dcdc4115f5b",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Flow Charts",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "40689427-4400-43e5-b1b1-3335bdfbae20",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Microservice Architecture",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "004bdc74-eac6-4d29-98e2-b79434a689b4",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Use Cases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "7890bda8-3670-4e57-ba7c-95cd455bcc9f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "System design interviews",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "89bc1091-b62a-4a3c-a79c-28e3e1f28196",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Architecture reviews",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "64646f9a-1045-4355-a1c0-d6567c4163d3",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Service communication diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3fdc6cec-d5cf-465e-b640-2cf255c9c93e",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database design",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "41a7382a-bca4-4ef0-8a46-04687463527d",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded Diagram Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "8d8f9cf1-18ff-435b-b48c-a725062a3d24",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Diagrams can be embedded directly inside documentation pages, allowing architecture, design decisions, and implementation details to live together in a single document.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "96fc53b8-4956-49cc-8b85-0e57b423dccd",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "High-Level Architecture",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ebf87a4d-0a5a-41e7-af1f-b16c8c75767c",
+            "type": "addDoc",
+            "props": {
+              "fileId": "1efe9614-5eff-4721-b9a7-0e3f5be7dfac",
+              "title": "hld-microservices",
+              "fileType": "archflow",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "6f7d919d-8ce8-4909-9236-4c0d247f7602",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "API Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a27f2973-4f29-4e66-b540-c1ef3bfc8e36",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Test and document APIs without leaving your workspace.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "72185794-e6b0-4cd2-99c0-d63a740f5a7f",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Supported Protocols",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a2032baa-758d-4617-870a-f64be3571b09",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "REST APIs",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4aff8f36-633b-4575-b704-77b7fd1b652e",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Webhooks",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ed723d98-0eb5-4be1-b94b-3bb8a15843e7",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "WebSockets",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "df6d6483-a505-4bf1-94fe-bfd896370cce",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Server Sent Events (SSE)",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "10902148-654d-439e-99f1-73b1802baaac",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Features",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a5fc4e46-ad31-4c0b-b361-6122d515f254",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Save requests",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "edebed61-4c7b-47a4-bced-49df29817735",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Organize API collections",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4ef2a581-65a5-4a9a-bb7a-4e4ce87f5992",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Reuse environments",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "416c1566-a444-4667-b521-2847a933583b",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Test endpoints",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "9679f738-097b-4768-9c24-a0107b87d8ba",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Share API examples",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b584adb2-11c1-4b70-825b-3fbd07765c95",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded API Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4b22ab38-466f-4ca3-b96d-9c741306906e",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "API requests can be embedded directly inside documentation pages, making it easy to explain workflows, provide examples, and keep implementation details alongside project documentation.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "6d800b07-1d7e-4024-91fa-9c00ee4a3307",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Create User API",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f4f62ecc-2140-4c62-8f78-acde67e067d2",
+            "type": "addDoc",
+            "props": {
+              "fileId": "1be67ea6-7e08-4389-b1e4-540b80a423bc",
+              "title": "Create User API",
+              "fileType": "protocol-x",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "b7d75d18-6a23-4776-8744-7ef0ce569773",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f804184a-361b-4222-a636-7011cf0f8578",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Connect to databases and save frequently used queries.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4e0b1e45-a8bf-4cb7-b18d-2cc9ec8bcc8b",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Supported Databases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f5d5a07d-215d-4673-936f-a4c6ef24b1b1",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "MySQL",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "eece4558-3789-41c3-82d1-ca39c2ff41c3",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "PostgreSQL",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "074a3ec4-7ffe-412c-a399-af904c88706a",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "MongoDB",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "1cfb2558-c54d-40e5-ba46-87c310785f6c",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Elasticsearch",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "893f3937-68c3-4e40-b098-0f53dff41b91",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "OpenSearch",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d27af01c-7a9e-4a35-a20e-7718af208bfc",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Redis",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4b069869-1cd7-4930-a741-c7385c7b7cc4",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Features",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d611e131-2c92-4716-ac2d-429eac7aff3c",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Execute queries",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d1cc73f6-dee2-4ac3-a230-f3dc78d32151",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Save reusable queries",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4e0a8ade-6c09-4fab-ac41-c8fd8d0f6c86",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Explore data",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "57551632-697c-4761-8c9d-bb3478f2b8f9",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Analyze results",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4d14a7c4-44ac-4879-b5f6-0ed44c1d3b9c",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded Database Query Examples",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3b276561-a0a8-4503-9c6e-08014ec8ee54",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database queries can be embedded directly inside documentation pages, allowing architecture, APIs, operational procedures, and database access patterns to live together in a single document.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a1921ba8-5308-403c-a65d-c7b1ab8b515e",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "MySQL Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ef9e2620-e5d4-4383-87c2-48f655965ef2",
+            "type": "addDoc",
+            "props": {
+              "fileId": "29d44a45-062b-473a-b642-3c7555a2b4ff",
+              "title": "MySQL Query",
+              "fileType": "data-bridge",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "4f3ff453-4d22-4842-980b-f124e0b4a352",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "JSON Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fad4afd8-2436-4080-88de-77acabebd51c",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "View, format, compare, and validate JSON documents.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "bfbdc7e7-0a7e-4142-9e09-10670842800e",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Use Cases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c9e3cc51-69f9-4e41-8f8d-c6e6a6dce88d",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "API responses",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "6a0ce9f6-d0cc-450b-a442-c11de9b6799a",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Event payloads",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "9873fac4-b93c-4ecb-8461-74bbabd9aca4",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Configuration files",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "9baeaa14-85c3-4eb7-9134-069e8ec7eb98",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "JSON comparison",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "cd80ee03-d9f7-444a-a7e7-a0c5489d7194",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Features",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ee2bfcae-e5ff-4067-a688-0c40cc3d008b",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Pretty formatting",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "64ca9b9b-bd5e-417c-8bb8-d9efcfbb99a1",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Tree view",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "8dbcd045-e56d-4912-b805-44715f759963",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Diff comparison",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f6010582-1091-4681-9d04-9f6ab3061938",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Validation",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ab5873b6-644f-43bb-ba27-d0809296197b",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded JSON Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "47f57d5c-d7af-4e65-86a0-74f710f06faf",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "JSON documents can be embedded directly inside documentation pages, making it easy to document API responses, Kafka events, configuration files, and data contracts alongside architecture and implementation details.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5dee9e5d-88e7-4202-8d97-371826c9e0de",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Kafka Event Payload",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a830eca2-3bd1-4914-832e-0d1c7e418016",
+            "type": "addDoc",
+            "props": {
+              "fileId": "2f3c69cf-3b9b-4fe6-83f0-f008ad1f32a2",
+              "title": "Kafka Event Payload",
+              "fileType": "json",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "4ca7d74b-7ef5-405a-bf04-55febbcae16c",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Code Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f3f43525-32fa-411e-a0f9-ac205e5b95a7",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Write and execute code snippets directly inside your notes.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "cbf9aa33-8e4e-4384-a644-773076cba4d9",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Supported Languages & Runtimes",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f0aa37c7-711a-485b-98fe-c882e4cd8345",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "JavaScript",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b2eae938-ef0b-4c4d-99d4-3089fae0662a",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "TypeScript",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "2019aa7d-47c9-4292-be15-b5ba02f6fd6b",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Java",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "97c5a346-23e3-44a3-9e0c-0813da5c30c7",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Docker Compose",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4ba7ff85-c407-4a21-ba1e-ffe009dba176",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Shell Scripts",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5c748150-949e-4589-b95a-ed3ce3905c49",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Use Cases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "efe71ef2-d157-4088-a3a0-5dd89e2b626c",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "DSA practice",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "bcfa4965-272e-4eeb-b9b4-dd3508a348f4",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Docker Compose execution",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "2558c9a0-84a9-4881-928f-d8e890121328",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Utility scripts",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "15c9e642-25e1-4665-92b2-92c5a0304b3d",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Data transformation",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3986bd6f-0136-426c-b207-15d759b258e7",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Learning examples",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4fd6ee17-e36a-482e-a00f-2897008db15f",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Automation scripts",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fcb5aa60-8a8a-4121-bc00-54d8123ff245",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Data processing",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "e224e714-0604-4926-9f18-1fae0daef946",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Infrastructure as Code",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "24c10b6f-6527-41d0-8b2e-ec490c9effd7",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded Code Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "754a6969-0cb9-46f1-ab5b-297592fd0dd7",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Code snippets can be embedded directly inside documentation pages, making it easy to explain algorithms, share solutions, and execute code without leaving your notes.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f8ab8ffb-a52d-4ae6-bbb0-0baa182e1f6c",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Problem Statement",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "e874e461-db38-4be4-a4ca-4ba0adefeb2d",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 4,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "0-1 Knapsack",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "91270f53-212a-4f3c-b043-2c5b3129f972",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Given two integer arrays ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "A",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " and ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "B",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " of size ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "N",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " representing values and weights associated with ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "N",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " items respectively.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4d81a6a4-07aa-402d-a6ce-6acf9006f8e9",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Also given an integer ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "C",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": " which represents the knapsack capacity.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "4643871d-cb0b-4ffe-a185-474a27cc3188",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Find the maximum value subset such that the sum of weights is less than or equal to ",
+                "styles": {}
+              },
+              {
+                "type": "text",
+                "text": "C",
+                "styles": {
+                  "code": true
+                }
+              },
+              {
+                "type": "text",
+                "text": ".",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "d12fe488-6fe3-4034-ac89-2134502381c4",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Example Input",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f0b36220-2bee-4a0e-993b-39df35653ef3",
+            "type": "codeBlock",
+            "props": {
+              "language": "javascript",
+              "code": "A = [60, 100, 120]\nB = [10, 20, 30]\nC = 50"
+            },
+            "children": []
+          },
+          {
+            "id": "a791bb1a-ffc5-4056-b561-3a199e17be1a",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Approach",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "30323eff-46d9-44d8-9909-ee2a73690b20",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "For every item we have two choices:",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5e705a7e-9da9-46d8-b4bf-753d53175f66",
+            "type": "numberedListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Pick the current item",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "eb7cc8c0-0a98-42c9-ba8d-ef6b3410def0",
+            "type": "numberedListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Don't pick the current item",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "aac03263-1c17-4689-a7ff-1ea8267639c7",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "This naturally leads to a Dynamic Programming solution.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c84def9b-e3ee-4f55-bec0-86c2de8c6749",
+            "type": "addDoc",
+            "props": {
+              "fileId": "5a89eb4a-36e2-4456-88f1-64e4f1dfcc16",
+              "title": "Code Snippet",
+              "fileType": "code-editor",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "afb5aa2a-e34c-4671-8766-098c0599b028",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminal Plugin",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "93760d1b-713b-4e06-8cf4-6f8ad107ecef",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Save and execute terminal commands for future reference.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "06e11941-93b3-4082-ae59-a234c855f23f",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Use Cases",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "43bf2484-5d19-4a8c-9e0f-11c620b05592",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Local setup commands",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "92a76230-23ea-4cc5-b24b-f0264ed91082",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Kubernetes debugging",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "eb9d329c-756f-40ef-9a4c-1b376b867839",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "AWS troubleshooting",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "0050f136-2703-496d-9307-8a7209103050",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Kafka operations",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "16d03905-d838-46ca-a64c-99c40ccb8836",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Benefits",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ba80fb38-6a96-42fb-988f-55b1409990b0",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Reusable commands",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a7ca5840-759a-49d9-874e-1b53e1d73d85",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Team knowledge sharing",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5efd9ca5-3938-4395-bd2b-5d627c4f6a11",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Faster onboarding",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "62c9b43a-f9f2-47ad-b503-eadeef7d21e1",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Embedded Terminal Example",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3e70d9c3-8dd6-4d94-931c-20aabb4a36c4",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminal commands can be embedded directly inside documentation pages, allowing teams to store frequently used commands alongside architecture, APIs, and operational runbooks.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3937b0f0-02c5-44e0-a020-be9f992f55a1",
+            "type": "addDoc",
+            "props": {
+              "fileId": "a0f3ea33-8b1d-4af0-a65d-c1c5bf89cd1b",
+              "title": "Local Terminal Command",
+              "fileType": "promptly",
+              "embedMode": "embed"
+            },
+            "children": []
+          },
+          {
+            "id": "b3c837c8-4554-44db-9113-333d39048299",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "External Plugins",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f1c30655-d156-48d0-98c6-0ad3122e6d6e",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Integrate your favorite tools directly into DevScribe.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f2d66732-a5f1-4020-967e-312ae0705dbb",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Examples include:",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "28bb868e-4c8a-4336-b035-f8f3a9bcca0c",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Excalidraw",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "593f8cd5-c72c-4144-92cd-3703aa68cd74",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Mermaid",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "665491bd-1c0d-4949-8b55-945a7f564650",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Redash",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a3467def-9669-42b4-aa2d-823293db5700",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Custom internal tools",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a41278fd-99b6-44b4-bdae-a85eea8839c8",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "This allows teams to extend DevScribe without changing their existing workflows.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "ca793e2e-b7cf-4842-8181-97ff1fcb7a1d",
+            "type": "divider",
+            "props": {},
+            "children": []
+          },
+          {
+            "id": "7b67d715-bf85-48a4-ad13-3bce7dfa0806",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 1,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Collections",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "513a2800-3cc6-48bb-aafc-c1be705ef68a",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Collections allow you to group related engineering artifacts together.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "c6bd20ad-8841-4ffb-868d-5229714f3bae",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "A collection can contain:",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "bcac6301-338e-4c95-8bbf-a2acb0322278",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Documentation",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "1d4e43a8-5209-4714-9bc8-00af9816c5b5",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Diagrams",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "dc1a3ffa-6859-4300-bd71-cd97c17edb95",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "APIs",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "fbe17e0c-bf1e-421f-be2f-19ba4f794259",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Database Queries",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f7fe9a31-e285-430d-9ce6-0a56d319c30b",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "JSON Examples",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "5d929b08-9ae7-45ab-8dae-f1936e38f5c4",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Scripts",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "19fe60f3-d39a-40ab-803a-b16e4cfe19fa",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Terminal Commands",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "f9d7d787-c895-47a5-acc2-d58747ec0908",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Collections help keep everything related to a project, service, feature, or system in one place, making it easier to organize and discover engineering knowledge.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "7ca90fd1-2308-462c-94d4-f5a504861d94",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Sharing Collections",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b0141b74-d142-43f7-a396-a4aa349b5714",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Collections can be shared with teammates, colleagues, or friends as a single package.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "a6737857-51d4-46de-a9f0-a6e5ee20befe",
+            "type": "paragraph",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Instead of sharing separate documents, diagrams, API collections, database queries, scripts, and operational commands across multiple tools, you can share an entire DevScribe collection and give others access to everything they need in one place.",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "3ca36f39-3f04-4cae-82cd-d31293edab33",
+            "type": "heading",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left",
+              "level": 3,
+              "isToggleable": false
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Benefits",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "2dc851e3-038c-4a31-908b-993973862e22",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Simplify onboarding",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "b2a8d852-a967-45a3-8c19-b5ab615993c2",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Improve collaboration",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "1c2ed4a4-930b-4f36-935c-be47a2156a90",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Share complete project knowledge",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "eaa67332-3eff-435a-91ea-a37accd904b0",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Reduce context switching",
+                "styles": {}
+              }
+            ],
+            "children": []
+          },
+          {
+            "id": "51e5e1cd-e1ad-4793-8052-94c7fa22ec13",
+            "type": "bulletListItem",
+            "props": {
+              "backgroundColor": "default",
+              "textColor": "default",
+              "textAlignment": "left"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Maintain a single source of truth for your team",
+                "styles": {}
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788356330995
+}

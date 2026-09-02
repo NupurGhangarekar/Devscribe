@@ -1,0 +1,871 @@
+{
+  "fileId": "1efe9614-5eff-4721-b9a7-0e3f5be7dfac",
+  "_id": "1efe9614-5eff-4721-b9a7-0e3f5be7dfac",
+  "title": "hld-microservices",
+  "fileType": "archflow",
+  "version": "1.0.0",
+  "blocks": [
+    {
+      "type": "archflow",
+      "data": {
+        "nodes": [
+          {
+            "id": "kgl5mhn8dv13nc",
+            "position": {
+              "x": 728.5231631286548,
+              "y": 106.22756748740005
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "User",
+              "label": "User",
+              "slug": "std-user",
+              "variant": "user"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false,
+            "dragging": false
+          },
+          {
+            "id": "cdqyycc51nos98",
+            "position": {
+              "x": 426.3061231270939,
+              "y": 537.5784979093901
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Auth Service",
+              "label": "Auth Service",
+              "slug": "std-service",
+              "variant": "service",
+              "className": "Auth Service",
+              "fillColor": "#b2f2bb"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "u5bol2h11oj9pv",
+            "position": {
+              "x": 729.1035226950064,
+              "y": 320.524631663289
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "API Gateway",
+              "label": "API Gateway",
+              "slug": "std-api-gateway",
+              "variant": "api-gateway"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "1wy9req6o9p8kk",
+            "position": {
+              "x": 729.1470820949368,
+              "y": 536.2674795213721
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Order Service",
+              "label": "Order Service",
+              "slug": "std-service",
+              "variant": "service",
+              "className": "Order Service",
+              "fillColor": "#ff8787"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "cvesh4fumv911e",
+            "position": {
+              "x": 1102.031315098532,
+              "y": 536.7435167039912
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Search Service",
+              "label": "Search Service",
+              "slug": "std-service",
+              "variant": "service",
+              "className": "Search Service",
+              "fillColor": "#a5d8ff"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "feizcsx8ajq3v8",
+            "position": {
+              "x": 583.8609045646823,
+              "y": 755.4091476028442
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "kafka",
+              "label": "kafka",
+              "slug": "std-queue",
+              "variant": "message-queue",
+              "className": "kafka"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "281u2ybrxv3oui",
+            "position": {
+              "x": 882.8772870360128,
+              "y": 751.7303049624883
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "MySQL DB",
+              "label": "MySQL DB",
+              "slug": "std-database",
+              "variant": "database",
+              "className": "MySQL DB",
+              "fillColor": "#ffc9c9"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "jky2hpl3aq0t7v",
+            "position": {
+              "x": 1103.217294319052,
+              "y": 751.7411614923473
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Search DB",
+              "label": "Search DB",
+              "slug": "std-search-db",
+              "variant": "search-db"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 110,
+              "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 110,
+            "height": 90,
+            "resizing": false
+          },
+          {
+            "id": "o1dmox88qijp49",
+            "position": {
+              "x": -21.88828173140939,
+              "y": 701.0124491381247
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Payment Service",
+              "label": "Payment Service",
+              "slug": "",
+              "variant": "header-box",
+              "className": "Payment Service",
+              "fillColor": "#eefbf0",
+              "strokeColor": "#0c8599",
+              "opacity": 10
+            },
+            "style": {
+              "width": 150,
+              "height": 100
+            },
+            "measured": {
+              "width": 393,
+              "height": 270
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 393,
+            "height": 270,
+            "resizing": false
+          },
+          {
+            "id": "w4drszol9fqbkn",
+            "position": {
+              "x": 136.86161865862653,
+              "y": 765.5100924888551
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Kafka Consumer",
+              "label": "Kafka Consumer",
+              "slug": "std-queue",
+              "variant": "message-queue",
+              "styleType": "element",
+              "className": "Kafka Consumer",
+              "fillColor": "#ffd8a8"
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 200,
+              "height": 75
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "7c8sb49satzjfz",
+            "position": {
+              "x": 138.60057549477125,
+              "y": 865.8448144010883
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "SNS Producer",
+              "label": "SNS Producer",
+              "slug": "std-queue",
+              "variant": "message-queue",
+              "styleType": "element",
+              "className": "SNS Producer",
+              "fillColor": "#ffd8a8"
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 200,
+              "height": 75
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "gjygpfdbi298lx",
+            "position": {
+              "x": 173.33319724185176,
+              "y": 1115.9047382951555
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "SNS",
+              "label": "SNS",
+              "slug": "aws-sns",
+              "variant": "aws-sns"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "8qvpo51sin3dow",
+            "position": {
+              "x": -38.256232745172554,
+              "y": 821.4300786514128
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Repository",
+              "label": "Repository",
+              "slug": "std-database",
+              "variant": "database",
+              "styleType": "element",
+              "className": "Repository",
+              "rotation": 90
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 200,
+              "height": 75
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "3j8hdb7upp8n47",
+            "position": {
+              "x": -356.43509271922113,
+              "y": 809.8163929843136
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Postgress DB",
+              "label": "Postgress DB",
+              "slug": "std-data-warehouse",
+              "variant": "data-warehouse",
+              "className": "Postgress DB"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "kwuoxne9wv5nao",
+            "position": {
+              "x": 578.6952368159926,
+              "y": 1113.0378314319996
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "SQS",
+              "label": "SQS",
+              "slug": "aws-sqs",
+              "variant": "aws-sqs"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "vjdo98c9hi7rni",
+            "position": {
+              "x": 1041.5163243639456,
+              "y": 983.2959461447816
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "",
+              "label": "",
+              "variant": "component",
+              "className": "",
+              "fillColor": "#ffd8a8",
+              "strokeColor": "#f59f00"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 240,
+              "height": 193
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 240,
+            "height": 193,
+            "resizing": false
+          },
+          {
+            "id": "3aag1rkepv6yuq",
+            "position": {
+              "x": 1068.1640294878623,
+              "y": 1008.7484901728369
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "SQS Consumer",
+              "label": "SQS Consumer",
+              "slug": "std-pubsub",
+              "variant": "pubsub",
+              "styleType": "element",
+              "className": "SQS Consumer"
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 193,
+              "height": 61
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 193,
+            "height": 61,
+            "resizing": false
+          },
+          {
+            "id": "0x0s5w448ejgl6",
+            "position": {
+              "x": 1065.889460195718,
+              "y": 1085.7368652770522
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Replica",
+              "label": "Replica",
+              "slug": "std-replica",
+              "variant": "replica",
+              "styleType": "element",
+              "fillColor": "#d0bfff"
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 191,
+              "height": 64
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 191,
+            "height": 64,
+            "resizing": false
+          },
+          {
+            "id": "76kmeavn47vl2g",
+            "position": {
+              "x": 1493.5899100274787,
+              "y": 965.0560061887701
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Replica",
+              "label": "Replica",
+              "slug": "std-replica",
+              "variant": "replica"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "g9i9u5bae5ndmf",
+            "position": {
+              "x": 326.23751612106395,
+              "y": 237.99521065593865
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Microservices",
+              "label": "Microservices",
+              "slug": "std-microservice",
+              "variant": "microservice",
+              "styleType": "element"
+            },
+            "style": {
+              "width": 200,
+              "height": 75
+            },
+            "measured": {
+              "width": 200,
+              "height": 75
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "jjdz5oewu0s4iz",
+            "position": {
+              "x": -427.4295963335801,
+              "y": 46.00380533813893
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "API Gateway",
+              "label": "API Gateway",
+              "slug": "std-api-gateway",
+              "variant": "api-gateway"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          },
+          {
+            "id": "poui8pxmlq2n5v",
+            "position": {
+              "x": -714.4383380874026,
+              "y": 489.3230056718561
+            },
+            "type": "tileNode",
+            "data": {
+              "name": "Microservices",
+              "label": "Microservices",
+              "slug": "std-microservice",
+              "variant": "microservice"
+            },
+            "style": {
+              "width": 130,
+              "height": 110
+            },
+            "measured": {
+              "width": 130,
+              "height": 110
+            },
+            "selected": false,
+            "dragging": false
+          }
+        ],
+        "edges": [
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "kgl5mhn8dv13nc",
+            "sourceHandle": "bottom",
+            "target": "u5bol2h11oj9pv",
+            "targetHandle": "top",
+            "id": "xy-edge__kgl5mhn8dv13ncbottom-u5bol2h11oj9pvtop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed",
+              "color": "#f76707"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false,
+              "color": "#f76707"
+            },
+            "source": "u5bol2h11oj9pv",
+            "sourceHandle": "bottom",
+            "target": "1wy9req6o9p8kk",
+            "targetHandle": "top",
+            "id": "xy-edge__u5bol2h11oj9pvbottom-1wy9req6o9p8kktop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "1wy9req6o9p8kk",
+            "sourceHandle": "left-source",
+            "target": "feizcsx8ajq3v8",
+            "targetHandle": "top",
+            "id": "xy-edge__1wy9req6o9p8kkleft-source-feizcsx8ajq3v8top",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "1wy9req6o9p8kk",
+            "sourceHandle": "right",
+            "target": "281u2ybrxv3oui",
+            "targetHandle": "top",
+            "id": "xy-edge__1wy9req6o9p8kkright-281u2ybrxv3ouitop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "cvesh4fumv911e",
+            "sourceHandle": "bottom",
+            "target": "jky2hpl3aq0t7v",
+            "targetHandle": "top",
+            "id": "xy-edge__cvesh4fumv911ebottom-jky2hpl3aq0t7vtop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed",
+              "color": "#2f9e44"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false,
+              "color": "#2f9e44"
+            },
+            "source": "u5bol2h11oj9pv",
+            "sourceHandle": "left-source",
+            "target": "cdqyycc51nos98",
+            "targetHandle": "top",
+            "id": "xy-edge__u5bol2h11oj9pvleft-source-cdqyycc51nos98top",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed",
+              "color": "#1971c2"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false,
+              "color": "#1971c2"
+            },
+            "source": "u5bol2h11oj9pv",
+            "sourceHandle": "right",
+            "target": "cvesh4fumv911e",
+            "targetHandle": "top",
+            "id": "xy-edge__u5bol2h11oj9pvright-cvesh4fumv911etop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "feizcsx8ajq3v8",
+            "sourceHandle": "left-source",
+            "target": "w4drszol9fqbkn",
+            "targetHandle": "right-target",
+            "id": "xy-edge__feizcsx8ajq3v8left-source-w4drszol9fqbknright-target",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "7c8sb49satzjfz",
+            "sourceHandle": "bottom",
+            "target": "gjygpfdbi298lx",
+            "targetHandle": "top",
+            "id": "xy-edge__7c8sb49satzjfzbottom-gjygpfdbi298lxtop",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "8qvpo51sin3dow",
+            "sourceHandle": "bottom",
+            "target": "3j8hdb7upp8n47",
+            "targetHandle": "right-target",
+            "id": "xy-edge__8qvpo51sin3dowbottom-3j8hdb7upp8n47right-target",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "gjygpfdbi298lx",
+            "sourceHandle": "right",
+            "target": "kwuoxne9wv5nao",
+            "targetHandle": "left",
+            "id": "xy-edge__gjygpfdbi298lxright-kwuoxne9wv5naoleft",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "kwuoxne9wv5nao",
+            "sourceHandle": "right",
+            "target": "3aag1rkepv6yuq",
+            "targetHandle": "left",
+            "id": "xy-edge__kwuoxne9wv5naoright-3aag1rkepv6yuqleft",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "straight",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "0x0s5w448ejgl6",
+            "sourceHandle": "right",
+            "target": "76kmeavn47vl2g",
+            "targetHandle": "left",
+            "id": "xy-edge__0x0s5w448ejgl6right-76kmeavn47vl2gleft",
+            "selected": false
+          },
+          {
+            "type": "smartEdge",
+            "markerEnd": {
+              "type": "arrowclosed"
+            },
+            "data": {
+              "relation": "",
+              "type": "smoothstep",
+              "strokeWidth": 2.5,
+              "dashed": false
+            },
+            "source": "jjdz5oewu0s4iz",
+            "sourceHandle": "bottom",
+            "target": "poui8pxmlq2n5v",
+            "targetHandle": "top",
+            "id": "xy-edge__jjdz5oewu0s4izbottom-poui8pxmlq2n5vtop"
+          }
+        ]
+      }
+    }
+  ],
+  "createdAt": 1788356330995,
+  "updatedAt": 1788356330995
+}
