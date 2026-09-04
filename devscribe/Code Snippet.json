@@ -8,7 +8,7 @@
     {
       "type": "code-editor",
       "data": {
-        "code": "function knapsack(A, B, C) {\n    const N = B.length;\n    // Create DP table and initialize with -1\n    const DP = Array.from({ length: N + 1 }, () => Array(C + 1).fill(-1));\n\n    function f(N, C) {\n        if (N === 0 || C === 0) return 0;\n\n        if (DP[N][C] !== -1) return DP[N][C];\n\n        // Don't take\n        let ans1 = f(N - 1, C);\n\n        // Take it\n        let ans2 = 0;\n        if (B[N - 1] <= C) {\n            ans2 = A[N - 1] + f(N - 1, C - B[N - 1]);\n        }\n\n        DP[N][C] = Math.max(ans1, ans2);\n        return DP[N][C];\n    }\n\n    return f(N, C);\n}\n// ✅ Sample input\nconst values = [60, 100, 120]; // A\nconst weights = [10, 20, 30];  // B\nconst capacity = 50;           // C\nconst result = knapsack(values, weights, capacity);\nconsole.log(\"Max knapsack value:\", result);",
+        "code": "function knapsack(A, B, C) {\n    const N = B.length;\n    // Create DP table and initialize with -1\n    const DP = Array.from({ length: N + 1 }, () => Array(C + 1).fill(-1));\n\n    function f(N, C) {\n        if (N === 0 || C === 0) return 0;\n\n        if (DP[N][C] !== -1) return DP[N][C];\n\n        // Don't take\n        let ans1 = f(N - 1, C);\n\n        // Take it\n        let ans2 = 0;\n        if (B[N - 1] <= C) {\n            ans2 = A[N - 1] + f(N - 1, C - B[N - 1]);\n        }\n\n        DP[N][C] = Math.max(ans1, ans2);\n        return DP[N][C];\n    }\n\n    return f(N, C);\n}\n// testing\nconst values = [60, 100, 120]; // A\nconst weights = [10, 20, 30];  // B\nconst capacity = 50;           // C\nconst result = knapsack(values, weights, capacity);\nconsole.log(\"Max knapsack value:\", result);",
         "language": "javascript",
         "output": "Max knapsack value: 220\n",
         "panelOpen": true,
@@ -36,5 +36,5 @@
     }
   ],
   "createdAt": 1788356330995,
-  "updatedAt": 1788367497099
+  "updatedAt": 1788534006001
 }
