@@ -1,40 +1,6 @@
 {
-  "fileId": "5a89eb4a-36e2-4456-88f1-64e4f1dfcc16",
-  "_id": "5a89eb4a-36e2-4456-88f1-64e4f1dfcc16",
-  "title": "Code Snippet",
-  "fileType": "code-editor",
-  "version": "1.0.0",
-  "blocks": [
-    {
-      "type": "code-editor",
-      "data": {
-        "code": "function knapsack(A, B, C) {\n    const N = B.length;\n    // Create DP table and initialize with -1\n    const DP = Array.from({ length: N + 1 }, () => Array(C + 1).fill(-1));\n\n    function f(N, C) {\n        if (N === 0 || C === 0) return 0;\n\n        if (DP[N][C] !== -1) return DP[N][C];\n\n        // Don't take\n        let ans1 = f(N - 1, C);\n\n        // Take it\n        let ans2 = 0;\n        if (B[N - 1] <= C) {\n            ans2 = A[N - 1] + f(N - 1, C - B[N - 1]);\n        }\n\n        DP[N][C] = Math.max(ans1, ans2);\n        return DP[N][C];\n    }\n\n    return f(N, C);\n}\n// testing\nconst values = [60, 100, 120]; // A\nconst weights = [10, 20, 30];  // B\nconst capacity = 50;           // C\nconst result = knapsack(values, weights, capacity);\nconsole.log(\"Max knapsack value:\", result);",
-        "language": "javascript",
-        "output": "Max knapsack value: 220\n",
-        "panelOpen": true,
-        "wordWrap": false,
-        "testCases": [
-          {
-            "id": "tc_1",
-            "name": "Test Case 1",
-            "inputs": [
-              {
-                "id": "in_1",
-                "key": "input1",
-                "value": "Hello"
-              },
-              {
-                "id": "in_2",
-                "key": "input2",
-                "value": "World"
-              }
-            ]
-          }
-        ],
-        "selectedTestCaseId": "tc_1"
-      }
-    }
-  ],
-  "createdAt": 1788356330995,
-  "updatedAt": 1788534006001
+  "iv": "5de1966abec036ab815bfbf0",
+  "salt": "88de843c4845425d4bda3b73c57113bf",
+  "ciphertext": "d2e1933c855fc6bc505742d28b81157c10d30c0c3113536edccc7718be892ec00b2cbb7c88ea40ad83ff52ab148eeb1c893524fb21a362a3ea5bea0422604640e5530aa09cab73d34372addb65867843d4b2e3085ff38cbb3b66ee292db6fddc9bf2f00d3f073094b30af6d885d16578eef5729a1cf07f42e4165fba69dfd86bce0ccb8049e6ff78fd028a2f2559293150b496df2e9d6dc5a787ca8362b9cd6f644f3b1969d49cf204a4f5d5229b16a9df5f2a8b82cac581d6b0480bf4191f124f015e6ce225fae6395005000035292eb9d3563437a51d9bc8852d2b7559818ea558802a466bd51c3d41b38bf19ffa08cf3953c87ed4d8b6ac14b81c22f4c72f14861bb6df34288f678d5e74944ac74dbbc910c9002a2ad90e7a297d88ea100ab1008b21085d8352df73d00946c82e9577b70768d94f77eaa0084fbf7c3379e372f9205fcbc57fe71533f7409be16f1ee631c20817056152b1f8a5857ecaf0c99b998eb5cc9ca018f250ab9fdde436f9a3fe8a42718a31545dba1e5ef9071b54c4be2a2b01543eb7ca31571d7fac1027faf82f1330e4e5e2611c88fef0f1b18866fc3897a7149e4ab07b1b5a0d3dd0ba136fe80d3c8d81ce7f34b3d4a1bc54cc9338457ffc482abacdf6286d5e33843a9f94fcf15a7009b4f9a7fb49cb7ed62af5d5c7cd6d49dc085bffbd672a4b9a80c85a85f6280a23bd8cc3a80ea45d5292cc2947cfede4356ed678f49dffe98c98dc2556d8a8b030632403a662a7e66642a390bfd60a3a7ce2b8ded08da8c0633b0c267e925567b1e75ef62f634e2d97aa2154b97672a5cafd132d07842bea7bec58ad751c71c8ef35073d608b8917a029a14aac33a4e56fd29ce2958720a7b10705cd667f57736d37c34e2810d1447df8affad70e0da53297d7705a328cc79e131ad5bd315eb38a3b21ac3b98670fed298b5faf43299f40317889870491157b7692e71bb638c5e35a14bbc57025254058c31400240e6d9d230faa6d04491738c1cff17a2abd921c389faa54f8c0962cee3a7f0c7420788cd3d5a2b423cb053d72d0aa5b89e6d69643a3a005f06646ae677e834b423d9a2cd3a52d750534550e94edfdc7e3259090b93d225b767226e50d89e6453fe24d14242a6c6bd5b21522b97dec7594ff54fda49e42041932ca55002b5a2adbe3a307b760aafdfdb45655656697f50deb1cd0ddb62785a77901edd4e2cf41e645cf4e77c019994f44a15612f214080db47b156fb52556ac43529fbfd913abb7e6d8507db3e03d97e7558993da2dae44f2519975da4ea69a35bbcdd80465c034a51a639e0c787962b0a51705372fdf210db0bc2f10692eecf0472acc08faf55d0e095cb381a69f5c7062d8ea888c6e5039c429921e3a618b3bee33ca98f37894741957cf902dacc047b2fb7984f236e05cd9c56642fb0ba86f57702212b98d901e10eb774a94c7e7f4f3706de741b3748b555291ebae199807a1a944a6daa479d48d79b023768221fb983a0e8ff81d8d520d78967ecb78aded86efc9459234abcb80a87793d7b7a125aaf0d1661a555c13259d8cca928240b11225589d0831b65bf8d33dc8882382a1206ead3a33e148a366e68576f225e519e85a5369ba746924e6dfb91d0bb14aaa19b5d38be6673f467820665552fd76e507a4344b6aaea7ec8892e8350235a2c4874fa1c6318061c6f936308af8c8986c95edae4a1d75b2d6adc9a7d1e764fd2b4cd5a4f95d89856e2e5ebdbc34284c96af35edabea8595364abe1a305750bd83603f7794db0cfecef4ec77cba70247170a66b4b1ee188dfd8a8b1e61944cf9b01be73f6f45ef12c66bcac455f2123022bd7d53c3c7e1d664ffa9d9b71028b90c99a9fae0ff840a252de1ddd2823eb976893ec505b0704377dbab7e0fffc596a5ccac076d3cb4ac9d",
+  "authTag": "4f077a9a62d1fc15f7d1d49002c6d847"
 }
